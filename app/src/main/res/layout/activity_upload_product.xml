@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".UploadProductActivity">
+
+    <ImageView
+        android:id="@+id/img_product_preview"
+        android:scaleType="fitXY"
+        android:layout_width="200dp"
+        android:layout_marginTop="20dp"
+        android:layout_gravity="center_horizontal"
+        android:layout_height="300dp"/>
+
+    <EditText
+        android:id="@+id/edt_product_name"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:hint="Product Name"
+        android:layout_gravity="center_horizontal"/>
+
+    <EditText
+        android:id="@+id/edt_product_price"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:hint="Product Price"
+        android:layout_gravity="center_horizontal"/>
+
+    <EditText
+        android:id="@+id/edt_product_des"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:hint="Product Description"
+        android:layout_gravity="center_horizontal"/>
+
+    <Button
+        android:id="@+id/btn_select_product"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="SELECT PRODUCT"
+        android:layout_gravity="center_horizontal"/>
+
+    <Button
+        android:id="@+id/btn_upload_product"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="UPLOAD PRODUCT"
+        android:layout_gravity="center_horizontal"/>
+
+    <ProgressBar
+        android:id="@+id/progress_bar"
+        android:visibility="gone"
+        android:layout_gravity="center_horizontal"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"/>
+
+</LinearLayout>
